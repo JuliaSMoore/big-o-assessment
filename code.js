@@ -43,7 +43,7 @@ const isPangram = (str) => {
 console.log(isPangram("The quick brown fox jumps over the lazy dog!"));
 
 //Runtime complexity: O(n^2)
-// Space complexity: O(n)
+// Space complexity: O(1)
 
 const longestWord = (arr) => {
   let word = "";
